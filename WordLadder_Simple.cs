@@ -31,7 +31,7 @@ public class Solution
                     if (wordSet.Contains(nextWord))
                     {
                         queue.Enqueue((nextWord, level + 1));
-                        wordSet.Remove(nextWord); // 방문 처리
+                        wordSet.Remove(nextWord);
                     }
                 }
             }
